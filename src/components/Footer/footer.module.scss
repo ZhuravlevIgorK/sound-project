@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    // position: absolute;
+    flex-direction: row;
+    flex-wrap: wrap;
+ 
+   min-height: 26px;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    left: -1px;
+    bottom: 0;
+    background-color: rgba(211, 231, 231);
+    box-shadow: 0em 0 .4em rgb(0, 0, 0);
+    position: fixed;  
+    color: rgb(5, 5, 101);        
+}

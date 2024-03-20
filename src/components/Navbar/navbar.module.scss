@@ -1,0 +1,25 @@
+
+.navigationHref {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.button {
+    background-color: rgba(232, 244, 244, 0.153);
+    border-color: rgba(3, 3, 3, 0.153);
+    height: 25px;
+    width: 180px;    
+    margin: 10px;
+    border-radius: 30px;
+    font-size:medium;
+    font-weight: bold;
+    color: rgb(30, 30, 130);   
+}
+
+.button:hover {
+    cursor:pointer;
+    background-color: rgba(26, 85, 85, 0.153);
+
+}
+

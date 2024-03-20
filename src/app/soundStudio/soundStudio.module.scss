@@ -1,0 +1,41 @@
+.soundStudio {
+    position:relative;   
+}
+
+.soundPageIMG{   
+    background-image: url(/ЗС3.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;    
+    position:absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.95;    
+    background-attachment: fixed;  
+   
+}
+
+.soundPageText {    
+    // font-weight:bolder;
+    position:relative;
+    top: auto;
+    left: auto;
+    right:auto;
+    width: 70%;
+    background-color: rgba(243, 243, 236, 0.708);
+    border-radius: 17px; 
+   
+    margin-left:15%; 
+    padding: 20px; 
+  
+}
+
+.imgMy1 {
+    width: 50%;
+    height: auto;   
+    margin: 2% 20% 0 20%; 
+    border-radius: 12px;    
+    border-style:hidden; 
+}

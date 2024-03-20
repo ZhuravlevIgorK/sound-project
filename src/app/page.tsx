@@ -1,95 +1,75 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import imgMy1 from '../public1/Cad.jpg';
+
+
+
+
+
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
+    
+    <main className={styles.homePage}>  
+      <div className={styles.homePageIMG}></div>  
+
+      <div className={styles.homePageText}>        
+        
+        <div className={styles.homePageName}>
+          <h3>Проектирование музыкальных студий, студий видеозаписи и актовых залов</h3>
+        </div>
+        
+         
+        <br/>     
+        <br/>       
+        
         <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+          <div>
+            Наша команда специализируемся на проектировании лучщих музыкальных студий, видео студий
+            и актовых залов. От учебных до профессиональных студийных комплексов.            
+          </div>
+          <br/>
+          <div>         
+            Мы принимаем участие во всех этапах разработки проекта, включая рекомендации по АР помещения, 
+            подготовку рабочей документации, управление проектом, подбор акустических материалов 
+            и оборудования, проектирование электропроводки, коммутации, студийной мебели.
+          </div> 
+          <br/>
+          <div>    
+            Одной из главных наших задач является поиск баланса между двумя одинаково важными, 
+            хотя иногда и конкурирующими целями: с одной стороны, это создание акустической среды для музыкально
+            точной записи и мониторинга, с другой, создание такого пространства для музыкантов, которое будет 
+            способствовать раскрытию творческих способностей.             
+          </div>
+          <br/>
+          <Image src={imgMy1} className={styles.imgMy1} alt={'foto'}/>
+          <div style={{marginLeft:'5%', fontSize:'small'}}>*Пример проекта</div>
+          <br/>
+          
+
+          <h3>Работы по проектированию включают в себя:</h3>
+          <ul>            
+            <li>Составление полноценного технического задания с учетом всех функциональных особенностей помещения.</li>
+            <li>Разработка мероприятий по звукоизоляции.</li>
+            <li>Разработка акустической модели включает в себя акустические расчеты основных параметров и дальнейшее компьютерное моделирование акустических процессов в рамках одного помещения. На основании результатов акустического моделирования, осуществляется подбор акустических отделочных материалов.</li>
+            <li>Разработка акустических элементов.</li>
+            <li>Эскизный проект является оптимальным результатом акустических расчетов, и включает в себя общий план размещения звукоизолирующих конструкций, акустических элементов, графические материалы, 3D модели объектов с указанием мест расположения акустических элементов.</li>
+            <li>Разработка электротехнического плана и коммутации.</li>
+            <li>Разработка решений для снижения шума вентиляции и систем кондиционирования.</li>
+            <li>Согласование акустических решений с заказчиком. На данном этапе, в рамках совещаний, производится проработка акустических решений совместно с заказчиком. По результатам, при необходимости, выполняется корректировка разработанных решений.</li>
+            <li>Окончательное оформление проектных решений.</li>
+          </ul>
+          <Image src='/fn.webp' width={700} height={500} className={styles.imgMy2} alt={'foto'} />
+          <br/>
+          Для консультации по проектированию Вы можете связаться с нами по телефону: 8-917-552-55-23, либо написать в форму обратной связи, и мы Вам перезвоним.
+          <br/>
+          <br/>
         </div>
       </div>
+      
+       
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
     </main>
+  
   );
-}
+};

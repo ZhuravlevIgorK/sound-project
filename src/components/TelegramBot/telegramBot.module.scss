@@ -1,0 +1,32 @@
+.telegramBot {
+    display: flex;
+    background-color: rgba(242, 238, 238, 0);
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0);
+    padding: 8px;      
+    border-radius: 8px;   
+    justify-content:center;
+    gap: 20px;
+    border-style:groove;
+}
+
+.inputButton {
+    border-radius: 6px;  
+    width: 170px;
+    border-width: 0.3px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.6);
+    color: rgb(0, 0, 0);
+    font-weight: bolder ;
+}
+
+.inputButton:hover {
+    background-color: rgb(9, 7, 7);
+    transition: 1s;
+    color: aliceblue;
+    
+}
+
+
+
+
+

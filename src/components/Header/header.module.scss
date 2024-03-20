@@ -1,0 +1,51 @@
+.header {   
+    background-color: rgba(211, 231, 231, 0.411);
+    padding-top: 0px;
+    -webkit-box-shadow: 0px 5px 62px 1px rgba(34, 43, 80, 0.78) inset;
+    -moz-box-shadow: 0px 5px 62px 1px rgba(34, 43, 80, 0.78) inset;
+    box-shadow: 0px 5px 62px 1px rgba(34, 43, 80, 0.78) inset; 
+}
+
+.HeaderSoundProject {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+    margin-top: 0px;
+}
+
+
+.headerSound {
+    color: #001477;
+    display:flex;
+    width: 40%;
+    flex-direction: row;
+    justify-content:space-around;
+    font-weight: bolder;
+    margin: 5px 5px 1px 5px;   
+}
+ 
+.headerLine {
+    height: 0px;
+    border-style:solid;
+    border-width: 1px;
+    width: 70%;
+    margin: auto;
+    border-color: #0623ff;
+}
+
+.weMakeBest {
+    display:flex;
+    flex-direction: row;
+    justify-content:center;  
+    width: 80%;
+    margin: auto;
+    color: rgb(151, 29, 29);
+    font-weight: bold;
+
+}
+
+.textStyle {
+    font-size:small;
+    margin: 5px 4%;
+}
+
