@@ -1,29 +1,31 @@
-import Link from 'next/link';
-import styles from './navbar.module.scss';
+"use client";
+import Link from "next/link";
+import styles from "./Navbar.module.scss";
+import { usePathname } from "next/navigation";
+import { PATH } from "@/app/config";
 
 export default function Navbar() {
-    return (
-        <nav className={styles.navBar}>         
+  const pathname = usePathname();
+  const getLinkParams = (href) => {
+    const params = {
+      className:
+        pathname === href
+          ? [styles.button, styles.active].join(" ")
+          : styles.button,
+      href,
+    };
+    return params;
+  };
 
-            <div className={styles.navigationHref}>
-                <Link href='/'>
-                    <button className={styles.button}>О нас</button>
-                </Link> 
-                <Link href='/videoStudio' >
-                    <button className={styles.button}>Видео студии</button>
-                </Link>   
-                <Link href='/soundStudio' >
-                    <button className={styles.button}>Студии звукозаписи</button>
-                </Link>  
-                <Link href='/assemblyHall'>
-                <button className={styles.button}>Актовые залы</button>
-                </Link>  
-                <Link href='/contacts'>
-                    <button className={styles.button}>Контакты</button>
-                </Link> 
-                     
-   
-            </div>              
-        </nav>
-    )
+  return (
+    <nav className={styles.navBar}>
+      <div className={styles.navigationHref}>
+        <Link {...getLinkParams(PATH.HOME)}>О нас</Link>
+        <Link {...getLinkParams(PATH.VIDEO_STUDIO)}>Видео студии</Link>
+        <Link {...getLinkParams(PATH.SOUND_STUDIO)}>Студии звукозаписи</Link>
+        <Link {...getLinkParams(PATH.ASSEMBLY_HALL)}>Актовые залы</Link>
+        <Link {...getLinkParams(PATH.CONTACTS)}>Контакты</Link>
+      </div>
+    </nav>
+  );
 }

@@ -1,5 +1,5 @@
 'use client' 
-import styles from '../Footer/footer.module.scss';
+import styles from './Footer.module.scss';
 import TelegramBot from '../TelegramBot/TelegramBot';
 
 
@@ -10,14 +10,13 @@ export default function Footer() {
         <div className={styles.footer}> 
             
             <div>
-                Design by IZY  © Все права защищены: 2022 - 2024 год.
+                Design by IZY  © Все права защищены: 2022 - {(new Date()).getFullYear()} год.
             </div>        
             <div>
-                По вопросам проектирования звоните: 8-917-552-55-23
+                По вопросам проектирования звоните: <a href='tel:89175525523'>8-917-552-55-23 </a>
             </div>                  
                                                         
-            <div>                
-                {/* <button style={{width:'400px', borderRadius:'10px', marginLeft:'15px'}}> форма обратной связи </button>                             */}
+            <div> 
                 <TelegramBot/>
             </div>
             

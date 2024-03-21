@@ -1,25 +1,46 @@
 
 .navigationHref {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 10px;
     flex-wrap: wrap;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+
 }
 
 .button {
-    background-color: rgba(232, 244, 244, 0.153);
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    
+    background-color: rgba(102, 161, 161, 0.153);
     border-color: rgba(3, 3, 3, 0.153);
-    height: 25px;
-    width: 180px;    
-    margin: 10px;
-    border-radius: 30px;
-    font-size:medium;
-    font-weight: bold;
+    padding: 5px 12px;
+    transition: all 0.3s ease;
+ 
+    border-radius: 30px;   
     color: rgb(30, 30, 130);   
 }
 
-.button:hover {
+.active, .button:hover {
     cursor:pointer;
     background-color: rgba(26, 85, 85, 0.153);
-
+    color:  var(--color-danger, rgb(243, 221, 58));
 }
 
+@media (max-width: 780px) {
+    .navigationHref {
+        justify-content: center;          
+    }    
+}
+
+@media (max-width: 480px) {
+    .navigationHref {       
+        flex-direction: column;
+        align-items: center;        
+    }    
+}

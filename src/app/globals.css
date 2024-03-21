@@ -1,0 +1,73 @@
+@import url("./reset.css");
+
+:root {
+  --color-default: #232323;
+  --color-secondary: #020981;
+  --color-danger: #971d1d;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.25;
+  font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto";
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 12px;
+}
+
+ol,
+ul {
+  padding-left: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+ol {
+  list-style: decimal;
+}
+
+ul {
+  list-style: circle;
+}
+
+li {
+  margin-left: 25px;
+}
+
+p {
+  text-indent: 20px;
+  margin-bottom: 10px;
+}
