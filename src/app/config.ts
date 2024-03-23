@@ -1,8 +1,8 @@
 export enum PATH {
     HOME = '/',
-    ASSEMBLY_HALL = '/Assembly-hall', 
-    VIDEO_STUDIO = '/Video-studio',
-    SOUND_STUDIO = '/Sound-studio',
-    CONTACTS = '/Contacts',
+    ASSEMBLY_HALL = '/assembly-hall', 
+    VIDEO_STUDIO = '/video-studio',
+    SOUND_STUDIO = '/sound-studio',
+    CONTACTS = '/contacts',
 } 
 
