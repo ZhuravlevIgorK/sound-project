@@ -2,28 +2,37 @@
     display: flex;
     background-color: rgba(242, 238, 238, 0);
     box-shadow: 0 0 16px rgba(0, 0, 0, 0);
-    padding: 8px;      
+    padding: 4px;      
     border-radius: 8px;   
     justify-content:center;
-    gap: 20px;
-    border-style:groove;
+    gap: 12px;
+    border-style:groove;   
 }
 
 .inputButton {
     border-radius: 6px;  
-    width: 170px;
+    width: 160px;    
     border-width: 0.3px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 0 16px rgba(0, 0, 0, 0.6);
-    color: rgb(0, 0, 0);
-    font-weight: bolder ;
+    background-color: rgb(239, 239, 239);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    color: rgb(0, 0, 0);    
 }
 
 .inputButton:hover {
-    background-color: rgb(9, 7, 7);
-    transition: 1s;
+    background-color: rgb(255, 255, 255);
+    transition: 3s;
     color: aliceblue;
     
+}
+
+@media (max-width: 480px) {
+    .telegramBot {        
+        gap: 1px
+    }
+    .telegramBot {       
+        flex-direction: column;
+        align-items: center;    
+    }    
 }
 
 
