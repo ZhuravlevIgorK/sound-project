@@ -1,4 +1,4 @@
-import styles from './AssemblyHall.module.scss';
+import styles from './assemblyHall.module.scss';
 import Image from 'next/image';
 
 export default function AssemblyHall() {

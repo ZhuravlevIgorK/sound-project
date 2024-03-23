@@ -1,5 +1,5 @@
 'use client' 
-import styles from './Footer.module.scss';
+import styles from './footer.module.scss';
 import TelegramBot from '../TelegramBot/TelegramBot';
 
 

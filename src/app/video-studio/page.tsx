@@ -1,4 +1,4 @@
-import styles from './VideoStudio.module.scss';
+import styles from './videoStudio.module.scss';
 import Image from 'next/image';
 
 export default function videoStudio() {
