@@ -1,7 +1,7 @@
 import styles from './AssemblyHall.module.scss';
 import Image from 'next/image';
 
-export default function assemblyHall() {
+export default function AssemblyHall() {
     return (
         <div className={styles.assemblyHall}>
             <div className={styles.assemblyHallgeIMG}>.</div>  
