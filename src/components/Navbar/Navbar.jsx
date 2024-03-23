@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import styles from "./Navbar.module.scss";
+import styles from "./navbar.module.scss";
 import { usePathname } from "next/navigation";
 import { PATH } from "@/app/config";
 
