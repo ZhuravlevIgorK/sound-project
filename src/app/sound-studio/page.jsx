@@ -1,4 +1,4 @@
-import styles from "./soundStudio.module.scss";
+import styles from "./SoundStudio.module.scss";
 import Image from "next/image";
 
 export default function contacts() {
