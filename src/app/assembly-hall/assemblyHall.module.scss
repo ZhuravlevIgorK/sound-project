@@ -14,8 +14,7 @@
     bottom: 0px;
     left: 0px;   
     opacity: 0.55;    
-    background-attachment: fixed;  
-   
+    background-attachment: fixed;    
 }
 
 .assemblyHallText {    
@@ -42,8 +41,7 @@
 }
 
 @media (max-width: 800px) {
-    .assemblyHallgeIMG { 
-        background-size:contain;      
-                
+    .assemblyHallgeIMG{ 
+        background-color: rgb(211, 205, 197);                    
     }    
 }

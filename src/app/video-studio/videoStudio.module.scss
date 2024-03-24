@@ -13,8 +13,7 @@
     bottom: 0px;
     left: 0px;
     opacity: 0.95;    
-    background-attachment: fixed;  
-   
+    background-attachment: fixed;     
 }
 
 .videoPageText {    
@@ -40,8 +39,7 @@
 }
 
 @media (max-width: 800px) {
-    .videoPageIMG { 
-        background-size:auto;      
-                
+    .videoPageIMG {         
+        height: 110%;               
     }    
 }
