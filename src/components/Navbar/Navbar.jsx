@@ -20,7 +20,7 @@ export default function Navbar() {
   return (
     <nav className={styles.navBar}>
       <div className={styles.navigationHref}>
-        <Link {...getLinkParams(PATH.HOME)}>О нас</Link>
+        <Link {...getLinkParams(PATH.HOME)} >О нас</Link>
         <Link {...getLinkParams(PATH.VIDEO_STUDIO)}>Видео студии</Link>
         <Link {...getLinkParams(PATH.SOUND_STUDIO)}>Студии звукозаписи</Link>
         <Link {...getLinkParams(PATH.ASSEMBLY_HALL)}>Актовые залы</Link>

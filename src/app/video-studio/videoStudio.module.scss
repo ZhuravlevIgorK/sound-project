@@ -38,3 +38,10 @@
     margin: 2% 20% 0 20%;   
     border-radius: 15px;   
 }
+
+@media (max-width: 800px) {
+    .videoPageIMG { 
+        background-size:auto;      
+                
+    }    
+}

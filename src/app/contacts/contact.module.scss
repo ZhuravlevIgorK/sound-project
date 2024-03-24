@@ -4,14 +4,10 @@
     margin: auto;
 }
 
-.background {
-    /* text-align: center;   */
+.background {    
     background-image: url(/cont.webp);         
     background-size: cover;
-    background-repeat: no-repeat;
-    /* background-position: center; */
-    /* width: 100%; */
-    /* height: 100vh; */     
+    background-repeat: no-repeat;    
     position: fixed;
     left: 0px; 
     right: 0px; 
@@ -37,8 +33,7 @@
 }
 
 .map1 {    
-    border-style: double;
-    // width: 600px;
+    border-style: double;    
     font-weight: bolder;    
     margin: 8px 40px;   
     opacity: 0.9; 
@@ -72,4 +67,9 @@
     opacity: 0.7;
 }
 
+@media (max-width: 800px) {
+    .pageContact {
+        display:block;
 
+    }
+}

@@ -39,3 +39,10 @@
     border-radius: 12px;    
     border-style:hidden; 
 }
+
+@media (max-width: 800px) {
+    .soundPageIMG { 
+        background-size: cover;      
+                
+    }    
+}
