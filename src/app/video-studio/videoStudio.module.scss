@@ -16,8 +16,7 @@
     background-attachment: fixed;     
 }
 
-.videoPageText {    
-    // font-weight:bolder;
+.videoPageText {     
     position:relative;
     top: auto;
     left: auto;
@@ -40,6 +39,7 @@
 
 @media (max-width: 800px) {
     .videoPageIMG {         
-        height: 110%;               
+        background-image:none;          
+        background-color: rgb(224, 212, 197);    
     }    
 }
